@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+* {
+    margin: 1px;
+}
+.navbar {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#4d7281, #203a43, #2c5364);
+}
+.navbar h1 {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 2px double white;
+    border-radius: 20px;
+    font-family: "Paytone One", sans-serif;
+    font-size: 45px;
+    color: #ffd8a8bd;
+    letter-spacing: 4px;
+}
+.navbar ul {
+    margin-top: 10px;
+    display: block;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar ul li {
+    padding: 10px 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    transition: all 200ms linear;
+}
+.navbar ul li:hover {
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+}
